@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Link CSS Style Sheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <!-- Create Desktop Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Navdeep Singh</div>
+        <div>
+            <!-- Create Navigation Links-->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Create Hamburger Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo">Navdeep Singh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Create Sections -->
+    <!-- Introduction -->
+    <section id="profile">
+        <div class="section__pic-container"> 
+            <img src="./assets/profile-pic.png" alt="Navdeep Singh Profile Picture">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Navdeep Singh</h1>
+            <p class="section__text__p2">Computer Science Student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+            
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/navdeep-singh-7b23a11b1/'">
+            
+                <img src="./assets/github.png" alt="My GitHub Profile"
+                class="icon" onclick="location.href='https://github.com/navdeep5'">
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Me -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" 
+                alt="Profile Picture"
+                class="about-pic">
+            </div>
+
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" 
+                        alt="Experience Icon"
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>Software Engineering <br />Augemented Reality <br />Research</p>
+                    </div>
+
+                    <div class="details-container">
+                        <img src="./assets/education.png" 
+                        alt="Education Icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree <br />Computing Science <br />Bioinformatics</p>
+                    </div>
+                </div>
+
+                <div class="text-container">
+                    <p>Current student at the University of Alberta, pursuing a 
+                        Bachelor's Degree in Science, majoring in Computing 
+                        Science with a minor in Bioinformatics. Experienced with 
+                        8+ programming languages, particularly skilled in Python, 
+                        Java, and C#. Passionate about contributing to the growing 
+                        field of computer and software programming, specifically 
+                        in the fields of data science, game development, and 
+                        android programming. Seeking opportunities in software 
+                        development/engineering internships that can help refine 
+                        skill sets developed through previous experience as an 
+                        Engineer at Huawei, Research Assistant in Computing 
+                        Science, Augmented Reality Developer, and Robotics 
+                        Volunteer.</p>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Huawei Technologies Ltd.</h2>
+                    <div class="article-container">
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Stable Diffusion Models</h3>
+                                <p>Optimized for inference and reduced model size</p>
+                            </div>
+                        </artcle>
+
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Image Editing</h3>
+                                <p>Worked on creating a new pipeline</p>
+                            </div>
+                        </artcle>
+
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Automation Scripts</h3>
+                                <p>Automate dataset creation, running metrics, etc.</p>
+                            </div>
+                        </artcle>
+                    </div>
+
+
+                    <h2 class="experience-sub-title">Rehabilitation Robotics Laboratory</h2>
+                    <div class="article-container">
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Contributed to GlenxRose</h3>
+                                <p>Improving Patient Adherence to Therapies for Patients with Acquired Brain Injury Using Augmented Reality</p>
+                            </div>
+                        </artcle>
+
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Unity and Windows Hololens 2</h3>
+                                <p></p>
+                            </div>
+                        </artcle>
+
+                        <artcle>
+                            <img src="./assets/checkmark.png" alt="Experience icon"
+                            class="icon">
+
+                            <div>
+                                <h3>Automation Scripts</h3>
+                                <p>Automate dataset creation, running metrics, etc.</p>
+                            </div>
+                        </artcle>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link Javascript File-->
+    <script src="script.js"></script>
+</body>
+</html>
