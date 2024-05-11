@@ -30,7 +30,7 @@ The **Portfolio** is a collection of my projects, skills, and experiences showca
 
 ## Usage
 
-    - To view the live version of the portfolio, simply visit [Netlify](https://timely-pavlova-5d55dc.netlify.app/).
+- To view the live version of the portfolio, simply visit [Netlify](https://timely-pavlova-5d55dc.netlify.app/).
 
 ## Features
 
@@ -48,4 +48,4 @@ The **Portfolio** is a collection of my projects, skills, and experiences showca
 
 ## Contact Information
 
-- For inquiries or collaborations, feel free to reach out via email at [your@email.com](mailto:navdeep5@ualberta.ca).
+- For inquiries or collaborations, feel free to reach out via [email](mailto:navdeep5@ualberta.ca).
