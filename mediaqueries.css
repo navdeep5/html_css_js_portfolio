@@ -1,5 +1,5 @@
 /* 1400 Pixels */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -52,7 +52,7 @@
 }
 
 /* 600 Pixels */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
     #contact, footer {
         height: 40vh;
     }
